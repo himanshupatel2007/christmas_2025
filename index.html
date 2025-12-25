@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Merry Christmas Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>MERRY CHRISTMAS</h1>
+
+    <div class="sleigh-box">
+        <img class="flying-sleigh" src="./santa.png" alt="Sleigh">
+    </div>
+
+    <img src="./tree.png" class="tree-image" alt="Tree">
+
+    <p class="quote">"Christmas waves a magic wand over this world..."</p>
+
+    <div class="gift-area">
+        
+        <div style="margin-bottom: 20px;">
+            <img src="https://www.animatedimages.org/data/media/359/animated-santa-claus-image-0007.gif" alt="Santa GIF">
+        </div>
+
+        <h2>Click a gift to open it!</h2>
+
+        <div class="card" onclick="open1(this)">
+            <p id="label1" style="font-size: 20px;">🎁 Gift 1</p>
+            <div id="gift1" class="gift-text">🍫 CHOCOLATE</div>
+        </div>
+
+        <div class="card" onclick="open2(this)">
+            <p id="label2" style="font-size: 20px;">🎁 Gift 2</p>
+            <div id="gift2" class="gift-text">🚗 CAR</div>
+        </div>
+
+        <div class="card" onclick="open3(this)">
+            <p id="label3" style="font-size: 20px;">🎁 Gift 3</p>
+            <div id="gift3" class="gift-text">🍎 FRUITS</div>
+        </div>
+
+    </div>
+<script src="srcipt.js"></script>
+    </body>
+</html>
