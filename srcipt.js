@@ -1,5 +1,4 @@
- // Beginner Snow: 
-        // We just make 40 little circles and drop them at random spots
+
         for (let i = 0; i < 40; i++) {
             let snow = document.createElement('div');
             snow.className = 'snowflake';
@@ -12,7 +11,7 @@
             document.body.appendChild(snow);
         }
 
-        // Beginner Reveal functions
+      
         function open1(element) {
             document.getElementById("gift1").style.display = "block";
             document.getElementById("label1").style.display = "none";
